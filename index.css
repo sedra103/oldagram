@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+main{
+    width: 375px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.logo{
+    width: 130px;
+    height: 33px;
+}
+
+.user-avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 90px;
+}
+
+.profile-pic{
+    width: 34px;
+    height: 34px;
+    border-radius: 90px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    gap: 10px;
+}
+
+.user-details{
+    display: flex;
+    flex-direction: column;
+    line-height: 6px;
+}
+
+.user-details p{
+    margin: 0;
+    font-size: 14px;
+}
+
+.post-image{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.interactions{
+    margin-top: 10px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.icons img{
+    width: 24px;
+    height: 24px;
+}
+
+.icons img:hover{
+    cursor: pointer;
+    border: 3px solid rgb(3, 3, 3);
+    border-radius: 20%;
+}
+
+.like-count{
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+h4{
+    font-weight: bold;
+}
+ h4, span{
+    margin: 0;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.divider{
+    height: 2px;
+    background-color: #EDEDED;
+    margin: 20px 0;
+}
